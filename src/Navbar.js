@@ -7,8 +7,7 @@ function Navbar(){
     const navRef = useRef();
     return(
         <header>
-            
-            <h2 className='animate-charcter ' href='/Home'><b>Malvers In</b></h2>
+            <h2 className='animate-charcter' href='/#Home'><b>Marvels In</b></h2>
             <nav ref={navRef}>
                 <a href="/#Home">Home</a>
                 <a href="/#About">About</a>

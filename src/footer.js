@@ -15,12 +15,12 @@ const footer = () => {
             <heading>© Marvels In</heading>
         </container>
 
-        <icon className='icon'>
+        <container className='icons'>
             <a href='/'><FontAwesomeIcon icon={faFacebook}/></a>
             <a href='https://www.instagram.com/marvelsin_community?igsh=dXUwd3c4dXNjcXZ0'><FontAwesomeIcon icon={faInstagram} /></a>
             <a href='/'><FontAwesomeIcon icon={faTwitter} /></a>
             <a href='https://www.linkedin.com/in/marvels-in-6b8770319'><FontAwesomeIcon icon={faLinkedin} /></a>
-        </icon>
+        </container>
 
         <container  className='terms'>
             <c>Privacy Policy</c>
